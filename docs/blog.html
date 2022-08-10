@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Iris Xu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="page-container">
+      <!-- Navigation bar -->
+      <nav class="nav" id="navbar">
+        <div class="container">
+          <h1><a href="index.html" id="header-text">Iris Xu</a></h1>
+          <div class="navlinks">
+            <!-- TODO: add anchors -->
+            <ul>
+              <li><a href="index.html">About</a></li>
+              <li><a href="index.html#projects">Projects</a></li>
+              <li><a href="index.html#personal">Personal</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main container margin-b-3rem">
+        <section id="hero" class="container">
+          <h1>Good things take time... Coming soon!</h1>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container flex-space">
+          <div>
+            <h2 class="accenttext1 margin-b-3rem">Connect</h2>
+            <ul class="op-80 navlinks grid">
+              <li><a href="https://github.com/irisxu02">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/irisxu02/">LinkedIn</a></li>
+              <li><a href="mailto:irisxu02@gmail.com">Email</a></li>
+            </ul>
+          </div>
+          <section id="contact">
+            <h2 class="accenttext1 margin-b-3rem pad-1">Drop a message</h2>
+            <form action="https://formspree.io/f/xpznzwyy" method="POST" id="contact-form">
+              <div class="flex-column pad-1">
+                <label for="name-field">Name:</label>
+                <input type="text" id="name-field" name="name-input" class="form-field" required minlength="2"
+                       maxlength="32"/>
+                <label for="email-field">Email:</label>
+                <input type="email" id="email-field" name="email-input" class="form-field" required
+                       maxlength="64"
+                       size="30"/>
+              </div>
+              <div class="grid pad-1">
+                <label for="subject-field">Subject:</label>
+                <input type="text" id="subject-field" name="subject-input" class="form-field" required
+                       minlength="2" maxlength="60"/>
+                <label for="message-field">Message:</label>
+                <textarea id="message-field" name="message-input" class="form-field" required cols="40" rows="5"
+                          aria-required="true"></textarea>
+                <input type="submit" value="Send" class="btn" id="submit-btn">
+              </div>
+            </form>
+          </section>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>
