@@ -200,7 +200,6 @@ p {
 
 /* || ABOUT SECTION */
 #hero {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   animation-name: down-enter;
   animation: 1.4s down-enter cubic-bezier(.25,1,.5,1) backwards;
