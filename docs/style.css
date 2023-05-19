@@ -25,8 +25,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #191919;
-  padding-bottom: 50px;
   line-height: 1.5;
+  height: 100%;
 }
 
 ul {
@@ -195,7 +195,7 @@ p {
   width: 100ch;
   top: 120px;
   position: relative;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem 5rem 1rem;
 }
 
 /* || ABOUT SECTION */
@@ -225,20 +225,15 @@ p {
   font-style: italic;
 }
 
-/* || NEWS SECTION AND BLOG */
-#news {
-
-}
-
 /* || FOOTER */
 .footer {
   background-color: #FAFAFA;
   padding: 0;
-  animation: 1.8s fade-in cubic-bezier(.25,1,.5,1) backwards;
-  bottom: 0;
   position: relative;
+  bottom: 0;
   width: 100%;
-  min-height: 17rem;
+  height: 510px;
+  animation: 1.8s fade-in cubic-bezier(.25,1,.5,1) backwards;
 }
 
 .footer .container {
